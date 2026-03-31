@@ -37,7 +37,7 @@ Archivist 负责维护项目知识库和文档体系，确保所有文档始终�
 |---------|---------|
 | Planner | 设计文档（Spec） |
 | Builder | 实现变更说明 |
-| Frontend Critic | 代码审查报告 |
+| Critic | 代码审查报告 |
 
 ## 输出内容
 

@@ -1,4 +1,4 @@
-# Frontend Critic（前端审查者）原型
+# Critic（审查者）原型
 
 > 公共原型：./common.md
 

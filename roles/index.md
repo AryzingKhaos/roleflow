@@ -17,7 +17,7 @@
 | [chat.md](chat.md) | 聊天助手 | 只读交流，回答问题、解释代码、讨论方案 |
 | [commit-writer.md](commit-writer.md) | 提交文案撰写者 | 基于 staged 变更生成英文 commit 文案 |
 | [explorer.md](explorer.md) | 探索者 | 探索并文档化现有代码行为 |
-| [frontend-critic.md](frontend-critic.md) | 前端审查者 | 识别前端问题，提供风险评估 |
+| [critic.md](critic.md) | 审查者 | 识别前端问题，提供风险评估 |
 | [planner.md](planner.md) | 规划者 | 将需求转化为 Builder 可实现的规格说明 |
 | [test-designer.md](test-designer.md) | 测试设计者 | 设计测试方案与验证清单，并管理调试打印 |
 | [test-writer.md](test-writer.md) | 单测编写者 | 编写单元测试与测试辅助代码 |
