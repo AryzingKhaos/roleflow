@@ -41,7 +41,7 @@
 
 ```md
 # 探索报告 [L0]：[功能名称]
-探索日期: YYYY-MM-DD | 关键词: x, y
+探索日期: [序号].YYYY-MM-DD | 关键词: x, y
 
 ## Entry Points
 | 触发动作 | 文件路径 |
