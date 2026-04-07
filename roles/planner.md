@@ -59,3 +59,25 @@ TODO 列表规范：
 不要解释设计过程。
 不要讨论替代方案。
 只输出最终 Spec。
+
+## 如果涉及前端样式css、scss的修改
+
+- 计划中必须包含页面结构树、组件拆分建议，必须生成一个UI的DSL抽象层
+
+### UI 的 DSL 抽象层格式示例
+
+```
+{
+  "type": "page",
+  "children": [
+    {
+      "type": "header",
+      "title": "Wallet"
+    },
+    {
+      "type": "list",
+      "items": [...]
+    }
+  ]
+}
+```
