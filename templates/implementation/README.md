@@ -256,10 +256,10 @@
 ## 参考示例
 
 查看现有实现文档作为参考:
-- `.vscode/link/roleflow/implementation/4.7.2/active-tab-validation-eth-request-accounts.md` - 功能实现示例
-- `.vscode/link/roleflow/implementation/4.7.2/tokens-page-hot-tokens-refactor.md` - 重构方案示例
-- `.vscode/link/roleflow/implementation/4.7.2/user-statistics-migration-plan.md` - 迁移方案示例
-- `.vscode/link/roleflow/implementation/4.8.0/change-request/cr-wrapped-confirm-to-hook.md` - 变更请求示例
+- `docs/link/roleflow/implementation/4.7.2/active-tab-validation-eth-request-accounts.md` - 功能实现示例
+- `docs/link/roleflow/implementation/4.7.2/tokens-page-hot-tokens-refactor.md` - 重构方案示例
+- `docs/link/roleflow/implementation/4.7.2/user-statistics-migration-plan.md` - 迁移方案示例
+- `docs/link/roleflow/implementation/4.8.0/change-request/cr-wrapped-confirm-to-hook.md` - 变更请求示例
 
 ---
 

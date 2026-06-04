@@ -1,11 +1,11 @@
 # Test Writer（单测编写者）
 
-> 角色原型：@.vscode/link/roleflow/blueprints/roles/test-writer.md
-> 公共规范：@.vscode/link/roleflow/context/roles/common.md
+> 角色原型：@docs/link/roleflow/blueprints/roles/test-writer.md
+> 公共规范：@docs/link/roleflow/context/roles/common.md
 
 ## 项目测试规范
 
-- 测试用例代码参考 `.vscode/link/roleflow/context/standards/test-case-standards.md`
+- 测试用例代码参考 `docs/link/roleflow/context/standards/test-case-standards.md`
 
 ### 框架与配置
 

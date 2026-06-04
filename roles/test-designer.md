@@ -46,6 +46,7 @@ feature spec / implementation plan / explorations / 代码 diff / 历史 bug / �
 - 高风险路径列表
 - Bug 复现模板
 - 调试打印语句清单（见下方调试打印职责）
+- 对于发现需求文档中的冲突点，也要记录到文档中
 
 ---
 

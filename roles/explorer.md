@@ -79,3 +79,17 @@ A/file.ts → B/file.ts → C/file.ts（模块间，非函数间）
 - 收到任务直接开始，无需确认
 - 写入文件后更新对应索引
 - 不问“是否继续”，直接输出完整探索文档
+
+## 关于 feature 文档
+
+仅在用户要求将代码库的某部分代码形成 feature 的知识库时，才遵循以下能力。
+
+仅在实例层要求新增或修改 feature 文档时，遵守以下规则：
+
+- feature 描述系统“对外表现出来的能力”，可以是已实现或未实现的功能
+- 使用以下模块：Goal / Non-goals / Flow / States / Contracts / Edge Cases + Acceptance
+- 每次新增或修改 feature 文件后，同步更新对应目录的索引文件
+
+不要解释设计过程。
+不要讨论替代方案。
+只输出最终 Spec。

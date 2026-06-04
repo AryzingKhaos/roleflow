@@ -19,6 +19,7 @@
 | [explorer.md](explorer.md) | 探索者 | 探索并文档化现有代码行为 |
 | [critic.md](critic.md) | 审查者 | 识别前端问题，提供风险评估 |
 | [planner.md](planner.md) | 规划者 | 将需求转化为 Builder 可实现的规格说明 |
+| [prd-skeptic.md](prd-skeptic.md) | PRD 怀疑者 | 默认怀疑 PRD，联网找证据反驳，输出风险清单与反问 |
 | [test-designer.md](test-designer.md) | 测试设计者 | 设计测试方案与验证清单，并管理调试打印 |
 | [test-writer.md](test-writer.md) | 单测编写者 | 编写单元测试与测试辅助代码 |
 | [weekly-reporter.md](weekly-reporter.md) | 周报撰写者 | 根据提交记录生成周报 |

@@ -1,13 +1,13 @@
 # Archivist（档案维护者）
 
-> 角色原型：@.vscode/link/roleflow/blueprints/roles/archivist.md
-> 公共规范：@.vscode/link/roleflow/context/roles/common.md
+> 角色原型：@docs/link/roleflow/blueprints/roles/archivist.md
+> 公共规范：@docs/link/roleflow/context/roles/common.md
 
 ## 本项目文档位置
 
 ### 功能文档
 
-功能实现或发生修改时，更新 `.vscode/link/roleflow/context/features/` 下对应的功能文档。
+功能实现或发生修改时，更新 `docs/link/roleflow/context/features/` 下对应的功能文档。
 
 每篇功能文档必须包含：
 
@@ -34,7 +34,7 @@
 
 ### 角色命令
 
-`.vscode/link/roleflow/commands/` 下每个命令文件对应一个角色。当角色文件新增或移除时，必须同步更新 `.vscode/link/roleflow/commands/` 下的对应命令文件。
+`docs/link/roleflow/commands/` 下每个命令文件对应一个角色。当角色文件新增或移除时，必须同步更新 `docs/link/roleflow/commands/` 下的对应命令文件。
 
 命名规则：命令文件名即斜杠命令名（kebab-case），内容只需引用对应**实例层**角色定义文件。
 
@@ -42,7 +42,7 @@
 
 - 优先使用列表和表格，避免长段落
 - 删除过期或无用内容
-- 文档大小限制：**index.md ≤ 15KB，普通文档 ≤ 12KB，project.md ≤ 10KB**
+- 注意严格控制文件的大小，减少无用的信息熵
 - 文档超出限制时，按内容分类拆分为子文件
 - 若拆分后仍无法容纳必要内容，可向用户申请提高该文档的体积上限，说明原因后等待批准
 
@@ -50,8 +50,8 @@
 
 | 触发事件 | 需要执行的操作 |
 |---------|--------------|
-| 功能实现完成 | 更新 `.vscode/link/roleflow/context/features/` 对应文档 + 索引 |
+| 功能实现完成 | 更新 `docs/link/roleflow/context/features/` 对应文档 + 索引 |
 | 架构发生变化 | 更新 `architecture/` 下相关文档 + 索引 |
 | 新增文档文件 | 更新该目录的 `index.md` |
 | 文档超出大小限制 | 拆分文件并更新索引 |
-| 角色文件新增或移除 | 同步更新 `.vscode/link/roleflow/commands/` 下对应命令文件 |
+| 角色文件新增或移除 | 同步更新 `docs/link/roleflow/commands/` 下对应命令文件 |

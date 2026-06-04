@@ -1,13 +1,13 @@
 # Frontend Critic（前端审查者）
 
-> 角色原型：@.vscode/link/roleflow/blueprints/roles/frontend-critic.md
-> 公共规范：@.vscode/link/roleflow/context/roles/common.md
+> 角色原型：@docs/link/roleflow/blueprints/roles/frontend-critic.md
+> 公共规范：@docs/link/roleflow/context/roles/common.md
 
 ## 审计前必读
 
-- `@.vscode/link/roleflow/context/standards/index.md`
-- `@.vscode/link/roleflow/context/standards/common-mistakes.md` — 已知常见错误，审计时对照排查，避免漏判
-- `@.vscode/link/roleflow/context/standards/code-style.md` — 代码风格规范，作为代码质量类问题的判断基准
+- `@docs/link/roleflow/context/standards/index.md`
+- `@docs/link/roleflow/context/standards/common-mistakes.md` — 已知常见错误，审计时对照排查，避免漏判
+- `@docs/link/roleflow/context/standards/code-style.md` — 代码风格规范，作为代码质量类问题的判断基准
 
 ## 本项目专项检查
 
@@ -19,4 +19,4 @@
 
 ## 本项目审计报告输出规范
 
-**路径**：`.vscode/link/roleflow/reviews/[版本号]/[功能点].md`（功能点使用 kebab-case）
+**路径**：`docs/link/roleflow/reviews/[版本号]/[功能点].md`（功能点使用 kebab-case）
