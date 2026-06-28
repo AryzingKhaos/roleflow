@@ -1,6 +1,6 @@
 # Evaluator for E2E（端到端测试评估者）原型
 
-> 公共原型：./common.md
+> 公共原型：./base/common.md
 
 ## 核心职责
 

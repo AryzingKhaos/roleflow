@@ -1,6 +1,6 @@
 # Clarifier（需求澄清师原型）
 
-> 公共规范：@blueprints/roles/common.md
+> 公共原型：./base/common.md
 
 ## 角色目标
 

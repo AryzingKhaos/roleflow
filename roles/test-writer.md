@@ -1,6 +1,6 @@
 # Test Writer（单测编写者）原型
 
-> 公共原型：./common.md
+> 公共原型：./base/common.md
 
 ## TL;DR
 
