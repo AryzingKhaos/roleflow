@@ -22,4 +22,8 @@
 | [prd-skeptic.md](prd-skeptic.md) | PRD 怀疑者 | 默认怀疑 PRD，联网找证据反驳，输出风险清单与反问 |
 | [test-designer.md](test-designer.md) | 测试设计者 | 设计测试方案与验证清单，并管理调试打印 |
 | [test-writer.md](test-writer.md) | 单测编写者 | 编写单元测试与测试辅助代码 |
+| [evaluator-for-chrome-ui.md](evaluator-for-chrome-ui.md) | UI 视觉评估者 | 打开页面截图，与设计稿做静态视觉对比并出报告 |
+| [evaluator-for-e2e.md](evaluator-for-e2e.md) | 端到端测试评估者 | 浏览器自动化驱动跑业务流，强 / 软断言并出报告 |
+| [test-email-writer.md](test-email-writer.md) | 提测邮件撰写者 | 把开发分工文档压缩成面向测试的提测邮件 |
+| [daily-reporter.md](daily-reporter.md) | 日报撰写者 | 根据当日提交记录生成日报 |
 | [weekly-reporter.md](weekly-reporter.md) | 周报撰写者 | 根据提交记录生成周报 |
