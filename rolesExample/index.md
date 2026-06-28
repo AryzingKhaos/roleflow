@@ -14,7 +14,7 @@
 | 文件 | 层级 | 说明 |
 |------|------|------|
 | [common.md](common.md) | 实例层 | 本项目公共补充（项目介绍、输出语言） |
-| [../../blueprints/roles/common.md](../../blueprints/roles/common.md) | 原型层 | 所有角色共享的基础协作原则 |
+| [../../blueprints/roles/base/common.md](../../blueprints/roles/base/common.md) | 原型层 | 所有角色共享的基础协作原则 |
 
 ## 文件列表
 

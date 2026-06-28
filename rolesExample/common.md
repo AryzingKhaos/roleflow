@@ -1,6 +1,6 @@
 # 角色公共规范（实例层）
 
-> 角色公共原型：@docs/link/roleflow/blueprints/roles/common.md
+> 角色公共原型：@docs/link/roleflow/blueprints/roles/base/common.md
 
 本文件只保留项目的公共补充约束。
 
