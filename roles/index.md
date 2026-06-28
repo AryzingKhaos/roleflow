@@ -6,7 +6,7 @@
 
 | 文件 | 说明 |
 |------|------|
-| [base/common.md](base/common.md) | 所有角色共享的基础协作原则 |
+| [base/common.md](base/common.md) | 所有角色共享的基础协作原则 + 任务级工件命名与存放规范（§1–§10） |
 | [base/collab-base.md](base/collab-base.md) | 协作访谈者家族（architect / pm）共享基类：协作姿态、一次一问、边谈边写、两种运行模式 |
 
 ## 角色原型列表
