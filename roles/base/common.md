@@ -92,6 +92,8 @@ roleflow/tasks/[版本号]/[任务ID]/
 
 | kebab 角色名 | 序号 | 驼峰名 |
 |--------------|------|--------|
+| pm | `030` | `pm` |
+| architect | `050` | `architect` |
 | clarifier | `100` | `clarifier` |
 | prd-skeptic | `150` | `prdSkeptic` |
 | explorer | `200` | `explorer` |
