@@ -33,3 +33,15 @@
 | [test-email-writer.md](test-email-writer.md) | 提测邮件撰写者 | 把开发分工文档压缩成面向测试的提测邮件 |
 | [daily-reporter.md](daily-reporter.md) | 日报撰写者 | 根据当日提交记录生成日报 |
 | [weekly-reporter.md](weekly-reporter.md) | 周报撰写者 | 根据提交记录生成周报 |
+
+## 链条按需裁剪指引
+
+角色链**按需截断是常态**，不要求任务走全链。参考口径：
+
+| 任务规模 | 建议链条 |
+|---|---|
+| 大型需求（新功能、跨模块、有正式 PRD） | clarifier → prd-skeptic → planner → builder → critic → 测试族 |
+| 中小改动（局部功能、明确 bugfix） | planner → builder → critic |
+| 排查/调研类 | 单角色即可（critic 只审、explorer 只探） |
+
+截断不影响工件命名与 taskIndex 注册：只要有角色落盘工件，就按公共原型 §1–§10 执行。

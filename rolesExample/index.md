@@ -1,5 +1,7 @@
 # roles/ 目录索引
 
+> ⚠️ **已废弃**：本目录是 roleflow v1 时代的实例层示例，引用的 `blueprints/roles/` 路径已不存在，仅作历史参考。新项目请用 `/roleflowv2 init` 生成 v2 骨架。
+
 > 本目录只存放项目的角色实例层；跨项目稳定的角色原型位于 `../../blueprints/roles/`。
 
 ## 分层说明

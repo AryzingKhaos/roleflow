@@ -24,6 +24,16 @@
 
 ---
 
+## Red Flags — 出现这些念头立即停手
+
+- "就这一次"
+- "Spec 没说但应该是这意思"
+- "我已经写到一半了，删了可惜"
+- "用户应该不会介意我顺便加这个"
+- "这块测试我手动跑过了"
+
+---
+
 ## 任务级工件存放（适用于所有产出 Markdown 工件的角色）
 
 > 凡是会落盘工件的角色，无论 `ad-hoc` 还是 `workflow` 模式，**默认按本节规则落盘**。
@@ -107,6 +117,8 @@ roleflow/tasks/[版本号]/[任务ID]/
 | test-designer | `700` | `testDesigner` |
 | test-writer | `800` | `testWriter` |
 
+以下角色**不走任务工件命名**（产物不落任务目录，落点与命名见各角色文件或实例层约定），故不在上表中：archivist、commit-writer、chat、test-email-writer、daily-reporter、weekly-reporter。
+
 ### 5. 附属子目录
 
 如果角色产出附属内容（截图、外部数据 JSON、文档快照、竞品截图等），**子目录名与主报告文件名同名、去掉 `.md` 后缀**，紧邻主报告同级存放：
@@ -122,6 +134,15 @@ roleflow/tasks/[版本号]/[任务ID]/
     refs/
     competitors/
 ```
+
+#### 任务级自由物料区
+
+除上述"与主报告同名"的附属子目录外，任务目录下**允许且仅允许**两个自由目录，不受工件命名约束：
+
+- `raw/`：任务的需求原始材料（PRD 原文、原型 html、设计物料等）
+- `assets/`：跨角色共用的辅助物料（mock 数据、图片、接口返回范例、测试用例素材等）
+
+角色工件引用其中内容时使用任务目录内相对路径。其他非规范命名的目录不应再出现在任务目录下。
 
 ### 6. 工件序号计算（落盘前）
 
@@ -143,7 +164,6 @@ roleflow/tasks/[版本号]/[任务ID]/
 - 单测代码（镜像源码目录，如 `src/tests/`）
 - E2E 代码（项目 e2e 框架目录，如 `e2e/tests/<area>/`、`e2e/pages/`、`e2e/helpers/`）
 - 项目级长期文档：`roleflow/context/features/`、`roleflow/context/architecture/`、`roleflow/context/standards/` 等
-- 命令文件：`roleflow/commands/`
 
 ### 9. 任务目录索引
 
