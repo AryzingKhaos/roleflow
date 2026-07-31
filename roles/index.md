@@ -15,6 +15,7 @@
 |------|------|------|
 | [clarifier.md](clarifier.md) | 需求澄清师 | 把模糊需求结构化成可交给 Planner 的需求文档（0→1） |
 | [pm.md](pm.md) | 协作产品经理 | 跟用户逐题打磨产品的用户 / 市场 / 体验 / 传播，产出产品 PRD |
+| [prd-designer.md](prd-designer.md) | PRD 设计师 | 把原始 PRD 规范化成评审级 PRD，并配套高保真 HTML 交互原型 |
 | [prd-skeptic.md](prd-skeptic.md) | PRD 怀疑者 | 默认怀疑 PRD，联网找证据反驳，输出风险清单与反问 |
 | [architect.md](architect.md) | 协作架构师 | 跟用户逐题对清技术架构（module / seam / depth），产出架构草案 |
 | [explorer.md](explorer.md) | 探索者 | 探索并文档化现有代码行为 |
@@ -40,7 +41,7 @@
 
 | 任务规模 | 建议链条 |
 |---|---|
-| 大型需求（新功能、跨模块、有正式 PRD） | clarifier → prd-skeptic → planner → builder → critic → 测试族 |
+| 大型需求（新功能、跨模块、有正式 PRD） | clarifier / pm → prd-designer → prd-skeptic → planner → builder → critic → 测试族 |
 | 中小改动（局部功能、明确 bugfix） | planner → builder → critic |
 | 排查/调研类 | 单角色即可（critic 只审、explorer 只探） |
 

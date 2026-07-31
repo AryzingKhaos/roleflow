@@ -119,6 +119,8 @@ roleflow/tasks/[版本号]/[任务ID]/
 
 以下角色**不走任务工件命名**（产物不落任务目录，落点与命名见各角色文件或实例层约定），故不在上表中：archivist、commit-writer、chat、test-email-writer、daily-reporter、weekly-reporter。
 
+另：prd-designer 的主产物（规范化 PRD + 高保真原型）落任务目录 `raw/` 自由物料区、使用描述性命名（见其角色文件），仅过程性文档走工件命名。
+
 ### 5. 附属子目录
 
 如果角色产出附属内容（截图、外部数据 JSON、文档快照、竞品截图等），**子目录名与主报告文件名同名、去掉 `.md` 后缀**，紧邻主报告同级存放：

@@ -1,0 +1,164 @@
+/* scheme-a-token-des.css — 弹窗主标题区 + 预估变动区复用样式 */
+
+/* --- 方案 A 主标题 --- */
+.token-des.scheme-a,
+.sign-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 20px 0;
+  flex-shrink: 0;
+  text-align: center;
+}
+.st-protocol {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #9ba4b6;
+  margin: 0 0 6px;
+}
+.st-protocol .il-sm {
+  width: 14px;
+  height: 14px;
+  vertical-align: -2px;
+  margin-right: 2px;
+  object-fit: contain;
+  display: inline-block;
+}
+.st-action {
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #232c41;
+  max-width: 300px;
+  margin: 0;
+}
+/* 动作主句不放通证 logo；通证图标仅出现在 .sign-delta 预估变动行 */
+.st-action .amt { font-weight: 600; }
+.st-action-sub {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #6d778c;
+  max-width: 300px;
+  margin: 2px 0 0;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+.st-action-sub .amt {
+  font-weight: 600;
+  color: #232c41;
+}
+
+.token-des.scheme-a + .sign-delta,
+.sign-title + .sign-delta { margin-top: 4px; }
+
+/* --- 简约预估变动区（左对齐 · 与 Tab 详情同轴；主标题仍居中） --- */
+.sign-delta {
+  padding: 12px 20px 8px;
+  flex-shrink: 0;
+  border-top: 1px solid #f0f1f5;
+  margin-top: 4px;
+  overflow: visible;
+  position: relative;
+  z-index: 2;
+}
+.sign-delta.empty { border-top: none; padding-top: 0; }
+.sd-label {
+  font-size: 12px;
+  color: #9ba4b6;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  position: relative;
+}
+.sd-list { list-style: none; margin: 0; padding: 0; }
+.sd-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  font-size: 15px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+.sd-row img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.sd-row.neg { color: #e05c4a; }
+.sd-row.pos { color: #00a870; }
+.sd-fiat {
+  font-size: 12px;
+  color: #9ba4b6;
+  margin-left: auto;
+  font-weight: 400;
+}
+.sd-none {
+  font-size: 12px;
+  color: #c4c9d4;
+  line-height: 1.5;
+  text-align: left;
+}
+.sign-delta + .transfer-detail { margin-top: 6px; }
+.sign-delta + .transfer-detail .tab-nav { padding-top: 14px; min-height: 50px; }
+
+/* Tooltip（预估变动说明） */
+.tip-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.tip-wrap .q-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-left: 2px;
+  background: url('../_shared-assets/icon-question.svg') center/contain no-repeat;
+  cursor: pointer;
+  position: relative;
+  top: -1px;
+}
+.sd-label .tip-wrap { position: static; }
+.sd-label .tip-wrap .tip-bubble {
+  display: none;
+  position: absolute;
+  z-index: 50;
+  top: calc(100% + 6px);
+  left: 16px;
+  right: 16px;
+  width: auto;
+  background: rgba(26, 33, 43, 0.8);
+  backdrop-filter: blur(4px);
+  border-radius: 4px;
+  padding: 12px 14px;
+  font-size: 12px;
+  line-height: 1.55;
+  font-weight: 400;
+  color: #fff;
+  text-align: left;
+  box-shadow: 0 4px 16px rgba(26, 33, 43, 0.18);
+  pointer-events: none;
+  white-space: normal;
+  word-break: break-word;
+}
+.sd-label .tip-wrap .tip-bubble::after {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: -4px;
+  border: 4px solid transparent;
+  border-bottom-color: rgba(26, 33, 43, 0.8);
+}
+.sd-label .tip-wrap:hover .tip-bubble,
+.sd-label .tip-wrap:focus-within .tip-bubble { display: block; }
+
+.popup.popup-sim { overflow: visible; }
+.popup.popup-sim .sign-main { overflow: visible; }
