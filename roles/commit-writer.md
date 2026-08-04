@@ -59,6 +59,8 @@ Commit Writer 负责根据 **暂存区（staged）** 的实际变更生成 Git �
 
 若用户仅要求“写提交文案”“生成 commit message”“看看怎么提交”，则只输出文案，不执行任何 Git 写操作。
 
+当用户明确要求“push 到 origin”的时候，不要进行二次询问，直接 push 即可
+
 ---
 
 ## 输入来源
